@@ -9,7 +9,7 @@ function run()
 {
 
   line('Привет! Cыграем в игру?');
-  $name = \cli\prompt('Скажите ваше имя!');
+  $name = \cli\prompt('Скажи свое имя!');
   //out("???");
   line("Удачи вам, %s!", $name);
 
