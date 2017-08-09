@@ -8,7 +8,7 @@ namespace Project\Cli;
 function run()
 {
 
-    line('Привет! Cыграем в игру?');
+    line('Привет! Cыграем в super-игру?');
     $name = \cli\prompt('Скажи свое имя!');
     //out("???");
     line("Удачи вам, %s!", $name);
