@@ -4,63 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6dd6103b975b7e928e4ff3b3db99549f",
-    "content-hash": "35cce5aaa57c01def524ad64854794c6",
+    "hash": "821cd82efbbc5516a2f674194a0e35be",
+    "content-hash": "de6ddaa35612c8e70a9a2af13d39688d",
     "packages": [
-        {
-            "name": "maxhexlet/brain-games",
-            "version": "v1.10.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/MaxSmakov/project-lvl1-s136.git",
-                "reference": "c74f0060cd76d2261e15cc6aa80373dbd13cee37"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/MaxSmakov/project-lvl1-s136/zipball/c74f0060cd76d2261e15cc6aa80373dbd13cee37",
-                "reference": "c74f0060cd76d2261e15cc6aa80373dbd13cee37",
-                "shasum": ""
-            },
-            "require": {
-                "wp-cli/php-cli-tools": "^0.11.3"
-            },
-            "require-dev": {
-                "squizlabs/php_codesniffer": "3.*"
-            },
-            "bin": [
-                "bin/brain-games",
-                "bin/brain-even",
-                "bin/brain-calc",
-                "bin/brain-gcd",
-                "bin/brain-balance",
-                "bin/brain-progression",
-                "bin/brain-prime"
-            ],
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/Cli.php",
-                    "src/games/even.php",
-                    "src/games/calc.php",
-                    "src/games/gcd.php",
-                    "src/games/balance.php",
-                    "src/games/progression.php",
-                    "src/games/prime.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "1"
-            ],
-            "authors": [
-                {
-                    "name": "MaxSmakov",
-                    "email": "maxsmakov@gmail.com"
-                }
-            ],
-            "description": "Hexlet project",
-            "time": "2017-07-16 12:50:12"
-        },
         {
             "name": "wp-cli/php-cli-tools",
             "version": "v0.11.3",
@@ -115,16 +61,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.0.2",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "c7594a88ae75401e8f8d0bd4deb8431b39045c51"
+                "reference": "f9eaf037edf22fdfccf04cb0ab57ebcb1e166219"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/c7594a88ae75401e8f8d0bd4deb8431b39045c51",
-                "reference": "c7594a88ae75401e8f8d0bd4deb8431b39045c51",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/f9eaf037edf22fdfccf04cb0ab57ebcb1e166219",
+                "reference": "f9eaf037edf22fdfccf04cb0ab57ebcb1e166219",
                 "shasum": ""
             },
             "require": {
@@ -162,7 +108,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-07-18 01:12:32"
+            "time": "2017-06-14 01:23:49"
         }
     ],
     "aliases": [],

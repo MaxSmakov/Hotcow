@@ -7,5 +7,12 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'be01b9b16925dcb22165c40b46681ac6' => $vendorDir . '/wp-cli/php-cli-tools/lib/cli/cli.php',
+    '6422370e870e4acad37aa647e24814b3' => $vendorDir . '/maxhexlet/brain-games/src/Cli.php',
+    'a3bdad5fa93ace7936e97b8f46490206' => $vendorDir . '/maxhexlet/brain-games/src/games/even.php',
+    '8a36bc90fcaf5c0711c7482c02885725' => $vendorDir . '/maxhexlet/brain-games/src/games/calc.php',
+    'fec42d3c378304bfb2c2bdfa0e95c46e' => $vendorDir . '/maxhexlet/brain-games/src/games/gcd.php',
+    '45f63e6ccc8761c75af883d61e88087c' => $vendorDir . '/maxhexlet/brain-games/src/games/balance.php',
+    '0597575b4efc3c6370ffb686dd5d27b7' => $vendorDir . '/maxhexlet/brain-games/src/games/progression.php',
+    '6d1a89c8965e5d5adb7e8dbbcb74d668' => $vendorDir . '/maxhexlet/brain-games/src/games/prime.php',
     'e5ff0f7e9e4bb7b4edaee31a16b4e054' => $baseDir . '/src/cli.php',
 );
